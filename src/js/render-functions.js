@@ -2,7 +2,7 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 const myGallery = document.querySelector('.gallery');
 
-const myLightbox = new SimpleLightbox('.gallery-link', {
+let myLightbox = new SimpleLightbox('.gallery-link', {
   captionsData: 'alt',
   captionDelay: 250,
   captionPosition: 'bottom',
